@@ -23,6 +23,15 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '~assets/bootstrap/css/bootstrap.min.css',
+    '~assets/plugins/lobipanel/lobipanel.min.css',
+    '~assets/plugins/pace/flash.css',
+    '~assets/font-awesome/css/font-awesome.min.css',
+    '~assets/pe-icon-7-stroke/css/pe-icon-7-stroke.css',
+    '~assets/themify-icons/themify-icons.css',
+    '~assets/plugins/emojionearea/emojionearea.min.css',
+    '~assets/plugins/monthly/monthly.css',
+    '~assets/dist/css/stylecrm.css'
   ],
   /*
   ** Plugins to load before mounting the App
