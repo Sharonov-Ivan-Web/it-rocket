@@ -31,7 +31,7 @@ module.exports = {
     '~assets/themify-icons/themify-icons.css',
     '~assets/plugins/emojionearea/emojionearea.min.css',
     '~assets/plugins/monthly/monthly.css',
-    '~assets/dist/css/stylecrm.css'
+    '~assets/temp/css/stylecrm.css'
   ],
   /*
   ** Plugins to load before mounting the App
