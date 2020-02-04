@@ -33,52 +33,52 @@
                               <ul class="dropdown-menu exp-drop" role="menu">
                                  <li>
                                     <a href="clist.html#" onclick="$('#dataTableExample1').tableExport({type:'json',escape:'false'});"> 
-                                    <img src="assets/dist/img/json.png" width="24" alt="logo"> JSON</a>
+                                    <img src="~assets/temp/img/json.png" width="24" alt="logo"> JSON</a>
                                  </li>
                                  <li>
                                     <a href="clist.html#" onclick="$('#dataTableExample1').tableExport({type:'json',escape:'false',ignoreColumn:'[2,3]'});">
-                                    <img src="assets/dist/img/json.png" width="24" alt="logo"> JSON (ignoreColumn)</a>
+                                    <img src="~assets/temp/img/json.png" width="24" alt="logo"> JSON (ignoreColumn)</a>
                                  </li>
                                  <li><a href="clist.html#" onclick="$('#dataTableExample1').tableExport({type:'json',escape:'true'});">
-                                    <img src="assets/dist/img/json.png" width="24" alt="logo"> JSON (with Escape)</a>
+                                    <img src="~assets/temp/img/json.png" width="24" alt="logo"> JSON (with Escape)</a>
                                  </li>
                                  <li class="divider"></li>
                                  <li><a href="clist.html#" onclick="$('#dataTableExample1').tableExport({type:'xml',escape:'false'});">
-                                    <img src="assets/dist/img/xml.png" width="24" alt="logo"> XML</a>
+                                    <img src="~assets/temp/img/xml.png" width="24" alt="logo"> XML</a>
                                  </li>
                                  <li><a href="clist.html#" onclick="$('#dataTableExample1').tableExport({type:'sql'});"> 
-                                    <img src="assets/dist/img/sql.png" width="24" alt="logo"> SQL</a>
+                                    <img src="~assets/temp/img/sql.png" width="24" alt="logo"> SQL</a>
                                  </li>
                                  <li class="divider"></li>
                                  <li>
                                     <a href="clist.html#" onclick="$('#dataTableExample1').tableExport({type:'csv',escape:'false'});"> 
-                                    <img src="assets/dist/img/csv.png" width="24" alt="logo"> CSV</a>
+                                    <img src="~assets/temp/img/csv.png" width="24" alt="logo"> CSV</a>
                                  </li>
                                  <li>
                                     <a href="clist.html#" onclick="$('#dataTableExample1').tableExport({type:'txt',escape:'false'});"> 
-                                    <img src="assets/dist/img/txt.png" width="24" alt="logo"> TXT</a>
+                                    <img src="~assets/temp/img/txt.png" width="24" alt="logo"> TXT</a>
                                  </li>
                                  <li class="divider"></li>
                                  <li>
                                     <a href="clist.html#" onclick="$('#dataTableExample1').tableExport({type:'excel',escape:'false'});"> 
-                                    <img src="assets/dist/img/xls.png" width="24" alt="logo"> XLS</a>
+                                    <img src="~assets/temp/img/xls.png" width="24" alt="logo"> XLS</a>
                                  </li>
                                  <li>
                                     <a href="clist.html#" onclick="$('#dataTableExample1').tableExport({type:'doc',escape:'false'});">
-                                    <img src="assets/dist/img/word.png" width="24" alt="logo"> Word</a>
+                                    <img src="~assets/temp/img/word.png" width="24" alt="logo"> Word</a>
                                  </li>
                                  <li>
                                     <a href="clist.html#" onclick="$('#dataTableExample1').tableExport({type:'powerpoint',escape:'false'});"> 
-                                    <img src="assets/dist/img/ppt.png" width="24" alt="logo"> PowerPoint</a>
+                                    <img src="~assets/temp/img/ppt.png" width="24" alt="logo"> PowerPoint</a>
                                  </li>
                                  <li class="divider"></li>
                                  <li>
                                     <a href="clist.html#" onclick="$('#dataTableExample1').tableExport({type:'png',escape:'false'});"> 
-                                    <img src="assets/dist/img/png.png" width="24" alt="logo"> PNG</a>
+                                    <img src="~assets/temp/img/png.png" width="24" alt="logo"> PNG</a>
                                  </li>
                                  <li>
                                     <a href="clist.html#" onclick="$('#dataTableExample1').tableExport({type:'pdf',pdfFontSize:'7',escape:'false'});"> 
-                                    <img src="assets/dist/img/pdf.png" width="24" alt="logo"> PDF</a>
+                                    <img src="~assets/temp/img/pdf.png" width="24" alt="logo"> PDF</a>
                                  </li>
                               </ul>
                            </div>
@@ -100,7 +100,7 @@
                                  </thead>
                                  <tbody>
                                     <tr v-for="(user, key) in listUsers" v-bind:key="key">
-                                       <td><img src="~assets/dist/img/avatar5.png" class="img-circle" alt="User Image" width="50" height="50"> </td>
+                                       <td><img src="~assets/temp/img/avatar5.png" class="img-circle" alt="User Image" width="50" height="50"> </td>
                                        <td>{{user.fName}} {{user.lName}}</td>
                                        <td>{{user.phone}}</td>
                                        <td><a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="75141907140f0c35011d101810181c1b1c060110075b161a18">{{user.mail}}</a></td>
@@ -114,7 +114,7 @@
                                        </td>
                                     </tr>
                                     <tr>
-                                       <td><img src="assets/dist/img/w2.png" class="img-circle" alt="User Image" width="50" height="50"> </td>
+                                       <td><img src="~assets/temp/img/w2.png" class="img-circle" alt="User Image" width="50" height="50"> </td>
                                        <td>MD. Alrazy</td>
                                        <td>+8801674688663</td>
                                        <td><a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="b9d8d5cbd8c3c0f9cdd1dcd4dcd4d0d7d0cacddccb97dad6d4">[email&#160;protected]</a></td>
@@ -128,7 +128,7 @@
                                        </td>
                                     </tr>
                                     <tr>
-                                       <td><img src="assets/dist/img/w3.png" class="img-circle" alt="User Image" width="50" height="50"> </td>
+                                       <td><img src="~assets/temp/img/w3.png" class="img-circle" alt="User Image" width="50" height="50"> </td>
                                        <td>Mrs. Jorina Begum</td>
                                        <td>+8801674688663</td>
                                        <td><a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="1a7b76687b60635a6e727f777f77737473696e7f6834797577">[email&#160;protected]</a></td>
@@ -142,7 +142,7 @@
                                        </td>
                                     </tr>
                                     <tr>
-                                       <td><img src="assets/dist/img/w4.png" class="img-circle" alt="User Image" width="50" height="50"> </td>
+                                       <td><img src="~assets/temp/img/w4.png" class="img-circle" alt="User Image" width="50" height="50"> </td>
                                        <td>Mrs. Rabeya Begum</td>
                                        <td>+8801674688663</td>
                                        <td><a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="bcddd0ceddc6c5fcc8d4d9d1d9d1d5d2d5cfc8d9ce92dfd3d1">[email&#160;protected]</a></td>

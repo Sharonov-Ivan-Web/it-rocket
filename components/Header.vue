@@ -4,10 +4,10 @@
             <a href="index.html" class="logo">
                <!-- Logo -->
                <span class="logo-mini">
-               <img src="~assets/dist/img/mini-logo.png" alt="">
+               <img src="~assets/temp/img/mini-logo.png" alt="">
                </span>
                <span class="logo-lg">
-               <img src="~assets/dist/img/logo.png" alt="">
+               <img src="~assets/temp/img/logo.png" alt="">
                </span>
             </a>
             <!-- Header Navbar -->
@@ -41,7 +41,7 @@
                                     <!-- start Orders -->
                                     <a href="index.html#" class="border-gray">
                                        <div class="pull-left">
-                                          <img src="~assets/dist/img/basketball-jersey.png" class="img-thumbnail" alt="User Image">
+                                          <img src="~assets/temp/img/basketball-jersey.png" class="img-thumbnail" alt="User Image">
                                        </div>
                                        <h4>polo shirt</h4>
                                        <p><strong>total item:</strong> 21
@@ -51,7 +51,7 @@
                                  <li>
                                     <a href="index.html#" class="border-gray">
                                        <div class="pull-left">
-                                          <img src="~assets/dist/img/shirt.png" class="img-thumbnail" alt="User Image">
+                                          <img src="~assets/temp/img/shirt.png" class="img-thumbnail" alt="User Image">
                                        </div>
                                        <h4>Kits</h4>
                                        <p><strong>total item:</strong> 11
@@ -61,7 +61,7 @@
                                  <li>
                                     <a href="index.html#" class="border-gray">
                                        <div class="pull-left">
-                                          <img src="~assets/dist/img/football.png" class="img-thumbnail" alt="User Image">
+                                          <img src="~assets/temp/img/football.png" class="img-thumbnail" alt="User Image">
                                        </div>
                                        <h4>Football</h4>
                                        <p><strong>total item:</strong> 16
@@ -71,7 +71,7 @@
                                  <li class="nav-list">
                                     <a href="index.html#" class="border-gray">
                                        <div class="pull-left">
-                                          <img src="~assets/dist/img/shoe.png" class="img-thumbnail" alt="User Image">
+                                          <img src="~assets/temp/img/shoe.png" class="img-thumbnail" alt="User Image">
                                        </div>
                                        <h4>Sports sheos</h4>
                                        <p><strong>total item:</strong> 10
@@ -95,7 +95,7 @@
                                     <!-- start message -->
                                     <a href="index.html#" class="border-gray">
                                        <div class="pull-left">
-                                          <img src="~assets/dist/img/avatar.png" class="img-circle" alt="User Image">
+                                          <img src="~assets/temp/img/avatar.png" class="img-circle" alt="User Image">
                                        </div>
                                        <h4>Ronaldo</h4>
                                        <p>Please oreder 10 pices of kits..</p>
@@ -106,7 +106,7 @@
                                  <li>
                                     <a href="index.html#" class="border-gray">
                                        <div class="pull-left">
-                                          <img src="~assets/dist/img/avatar2.png" class="img-circle" alt="User Image">
+                                          <img src="~assets/temp/img/avatar2.png" class="img-circle" alt="User Image">
                                        </div>
                                        <h4>Leo messi</h4>
                                        <p>Please oreder 10 pices of Sheos..</p>
@@ -117,7 +117,7 @@
                                  <li>
                                     <a href="index.html#" class="border-gray">
                                        <div class="pull-left" >
-                                          <img src="~assets/dist/img/avatar3.png" class="img-circle" alt="User Image">
+                                          <img src="~assets/temp/img/avatar3.png" class="img-circle" alt="User Image">
                                        </div>
                                        <h4>Modric</h4>
                                        <p>Please oreder 6 pices of bats..</p>
@@ -128,7 +128,7 @@
                                  <li>
                                     <a href="index.html#" class="border-gray">
                                        <div class="pull-left">
-                                          <img src="~assets/dist/img/avatar4.png" class="img-circle" alt="User Image">
+                                          <img src="~assets/temp/img/avatar4.png" class="img-circle" alt="User Image">
                                        </div>
                                        <h4>Salman</h4>
                                        <p>Hello i want 4 uefa footballs</p>
@@ -140,7 +140,7 @@
                                  <li>
                                     <a href="index.html#" class="border-gray">
                                        <div class="pull-left">
-                                          <img src="~assets/dist/img/avatar5.png" class="img-circle" alt="User Image">
+                                          <img src="~assets/temp/img/avatar5.png" class="img-circle" alt="User Image">
                                        </div>
                                        <h4>Sergio Ramos</h4>
                                        <p>Hello i want 9 uefa footballs</p>
@@ -265,7 +265,7 @@
                      <!-- user -->
                      <li class="dropdown dropdown-user">
                         <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" v-on:click.prevent="userClick()">
-                        <img src="~assets/dist/img/avatar5.png" class="img-circle" width="45" height="45" alt="user"></a>
+                        <img src="~assets/temp/img/avatar5.png" class="img-circle" width="45" height="45" alt="user"></a>
                         <ul class="dropdown-menu" v-show="profileDropdown">
                            <li>
                               <a href="profile.html">

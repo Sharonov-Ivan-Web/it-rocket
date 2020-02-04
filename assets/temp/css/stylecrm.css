@@ -364,7 +364,7 @@ hr {
 /*color*/
 
 .color-green {
-    color: #50ab2;
+    color: #50ab22;
 }
 .color-red {
     color: #E5343D;
@@ -571,7 +571,6 @@ a.sidebar-toggle .pe-7s-angle-left-circle {
     position: absolute;
     top: 10px;
     right: 4px;
-    font-ssidebar-toggleize: 11px;
     line-height: 3px;
     padding: 5px 5px;
     border-radius: 50em;
@@ -1155,7 +1154,7 @@ a.sidebar-toggle .pe-7s-angle-left-circle {
   color: #fff;
 }
 .sidebar-menu .treeview-menu > li:hover > a {
-  color:;  
+  color: #fff;  
 }
 .sidebar-menu .treeview-menu > li::before {
     left: 0;
@@ -1313,10 +1312,7 @@ a.sidebar-toggle .pe-7s-angle-left-circle {
 .dropdown-menu > li > a:hover {
     color: #009688;
 }
-.dropdown-menu > li > a > .glyphicon,
-.dropdown-menu > li > a > .fa,
-.dropdown-menu > li > a > .ion {
-}
+
 .dropdown-menu > .divider {
     background-color: #eee;
 }
@@ -3663,7 +3659,7 @@ pre .arg {
 .cbp_tmtimeline > li i {
     width: 50px;
     height: 50px;
-    speak: none;
+    /* speak: none; */
     text-transform: none;
     font-size: 24px;
     line-height: 46px;
@@ -3742,7 +3738,7 @@ pre .arg {
 [class*=" pe-7s-"] {
     display: inline-block;
     font-family: 'Pe-icon-7-stroke';
-    speak: none;
+    /* speak: none; */
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
