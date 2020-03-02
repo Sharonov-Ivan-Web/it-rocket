@@ -1,20 +1,36 @@
 const express = require('express')
+
+const mongoose = require('mongoose')
+const Employees = require('./routes/Employees')
+const Departaments = require('./routes/Departaments')
+const Settings = require('./routes/Settings')
+
 const consola = require('consola')
 const { Nuxt, Builder } = require('nuxt')
 const app = express()
-// Import and Set Nuxt.js options
+
+app.use(express.json())
+app.use(express.urlencoded({extended:true}))
+app.use('/employees', Employees)
+app.use('/departaments', Departaments)
+app.use('/settings', Settings)
+
 const config = require('../nuxt.config.js')
 config.dev = process.env.NODE_ENV !== 'production'
 
 async function start () {
-  // Init Nuxt.js
+  
   const nuxt = new Nuxt(config)
 
   const { host, port } = nuxt.options.server
 
-  // Build only in dev mode
   if (config.dev) {
     const builder = new Builder(nuxt)
+
+    const connectBD = mongoose.connect('mongodb+srv://it_rocket:Sinhrofazotron@itrocket-okbcp.mongodb.net/it_rocket', {
+        useNewUrlParser: true,
+        useFindAndModify: false
+    })
     await builder.build()
   } else {
     await nuxt.ready()
